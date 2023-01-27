@@ -3,7 +3,7 @@ import { Users } from "../../data";
 import CloseFriend from "../closeFriend/CloseFriend";
 import "./sidebar.css";
 
-export default function sidebar() {
+export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
