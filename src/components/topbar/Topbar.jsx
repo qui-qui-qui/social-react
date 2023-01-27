@@ -1,15 +1,15 @@
 import "./topbar.css";
-import {Search, Person, Chat, Notifications} from "@material-ui/icons";
+import {Search, Person, Chat, Notifications} from "@mui/icons-material";
 
 export default function Topbar() {
     return (
         <div className="topbarContainer">
             <div className="topbarLeft">
-                <span className="logo">Defaulsocial</span>
+                <span className="logo">Defaultsocial</span>
             </div>
             <div className="topbarCenter">
                 <div className="searchbar">
-                    <Search/>
+                    <Search className="searchIcon"/>
                     <input placeholder="Search for friend, post or video" className="searchInput" />
                 </div>
             </div>
